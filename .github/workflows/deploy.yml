@@ -2,7 +2,7 @@ name: Manually Deploy to Heroku
 
 on: workflow_dispatch
   schedule:
-    - cron:  '12 * * * *'
+    - cron: 12 * * * *
 
   
 
